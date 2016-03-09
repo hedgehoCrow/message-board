@@ -7,3 +7,39 @@
     display: inline-block;
     border: 1px solid #f00;
 }
+
+.panel-heading {
+    font-weight: 600;
+}
+
+.row {
+    margin-bottom: 50px;
+    max-width: 1200px
+}
+
+.icon {
+    text-align: center;
+}
+
+.icon .glyphicon {
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: #777;
+}
+
+.content h3 {
+    margin-top: 0;
+}
+
+footer {
+    margin-top: 20px;
+    border-top: 1px solid#e7e7e7;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.copyright {
+    padding: 20px 0;
+    font-size: 12px;
+    color: #666;
+}
