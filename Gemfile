@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.5'
+gem 'rails', '4.2.11.1'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', group: :development
 # 本番ではpostgressを使用する
@@ -15,6 +15,9 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
+gem "activejob", ">= 4.2.11"
+gem "actionview", ">= 4.2.11.1"
+gem "activerecord", ">= 4.2.7.1"
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
