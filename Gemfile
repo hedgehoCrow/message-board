@@ -18,6 +18,7 @@ gem 'coffee-rails', '~> 4.1.0'
 gem "activejob", ">= 4.2.11"
 gem "actionview", ">= 4.2.11.1"
 gem "activerecord", ">= 4.2.7.1"
+gem "nokogiri", ">= 1.10.4"
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
